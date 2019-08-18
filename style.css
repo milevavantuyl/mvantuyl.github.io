@@ -1,0 +1,233 @@
+body {
+	margin: 0px; 
+	font-family: Verdana, Geneva, sans-serif;
+	line-height: 1.75em;
+}
+
+
+/* Links */
+a:link, a:visited {
+	text-decoration: none;
+	color: #337ab7;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+/* Navigation */
+.navbar {
+	z-index: 1;
+	position: fixed;
+	background: white; 
+	top: 0;  
+	left: 0; 
+	right: 0; 
+}
+
+.navigation-container {
+	overflow: hidden; 
+	width: 89% /*75%*/; 
+	margin: auto;
+}
+
+.navigation-container a { /* About, Resume, and Gallery links */ 
+	float: right;
+	display: block; 
+	text-align: center;
+	color: black;  
+	font-weight: bold; 
+	text-decoration: none;  
+	padding: 19px 20px;
+	font-size: smaller;
+}
+
+.navigation-container a.left { /* Home link */
+	float: left; 
+	padding: 19px 20px; 
+	color: #ff571a; /* red-orange for Home button */
+	text-decoration: none; 
+	font-size: larger; 
+}
+
+.navigation-container a:hover {
+	background-color: #ff7c4d; /* Peach colored box on hover */
+	color: white; 
+}
+
+.home-image {
+	background: url("media/headshot.jpeg") 100% no-repeat;
+	height: 800px;
+	background-size: cover;
+	background-color: #C0C0C0;
+	background-position: center;
+	position: relative;
+}
+
+.home-text {
+	text-align: center;
+	color: white;
+	position: absolute;
+	top: 30%;
+	margin: auto;
+	width:50%;
+}
+
+.home-text h1.home-title {
+	font-size: 2.75em;
+	font-weight: bold;
+	margin: 0px;
+	font-family: Verdana, Geneva, sans-serif;
+	line-height: 1.25em;
+}
+
+.home-text p.home-sub-title {
+	font-size: 1.1em;
+	margin:0px;
+}
+
+.header-divider {
+	width: 80px; 
+	height: 3px; 
+	background-color: white; 
+	margin: auto; 
+	text-align: center;
+	margin-bottom: 15px; 
+}
+
+.research-header-container {
+	width: 100%;
+	background: #ff571a url("media/Wellesley.jpg") 100% no-repeat;
+	background-size: cover; 
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+	height: 120px; /* or 210px */
+	position: relative;
+	top: 50px;
+}
+
+.resume-header-container {
+	width: 100%;
+	background: #ff571a url("media/Edinburgh.jpg") 100% no-repeat;
+	background-size: cover; 
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+	height: 120px; /* or 210px */
+	position: relative;
+	top: 50px;
+}
+
+.about-header-container { 
+	width: 100%;
+	background: #ff571a url("media/Siesta.jpg") 100% no-repeat;
+	background-size: cover; 
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+	height: 120px; /* or 210px */
+	position: relative;
+	top: 50px;
+}
+
+/*
+.header-content {
+	width: 90%;
+}
+*/
+
+.about_headshot {
+	float: right; 
+	max-width: 33%;
+	height: auto;
+	margin: auto;
+	margin-left: 20px;
+}
+
+
+/* Content */
+.content-container {
+	width: 85%;
+	margin: 100px auto 100px;
+}
+.content {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.home-title {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.content-title {
+	margin-bottom: 0px;
+}
+
+figure img {
+	
+	float: right;
+	width: 330px;
+	margin-left: 15px;
+	text-align: center;
+}
+
+figure {
+	float: right; 	
+	width: 330px; 
+	margin-left: 20px; 
+	text-align: center;
+	caption-side: bottom;
+	font-size: smaller;
+}
+
+.resume-content-title {
+	margin-top: 40px;
+	margin-bottom: 16px;
+}
+
+
+.resume-content-container {
+	width: 85%;
+	margin: 80px auto 60px; 
+}
+
+/* Footer */
+.footer-container {
+	width: 100%; 
+	background: #ff571a;
+	color: white;
+	height: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	line-height: 1.25em;
+}
+
+
+
+.footer-title {
+	margin: 0px;
+	font-size: 1em;
+}
+
+.footer-contact {
+	font-size: 0.75em;
+	margin: 8px;
+}
+
+
+
+
+
+
