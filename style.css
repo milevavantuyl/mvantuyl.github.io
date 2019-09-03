@@ -96,9 +96,38 @@ a:hover {
 	margin-bottom: 15px; 
 }
 
+@media screen and (max-width: 600px) {
+	.home-text h1.home-title {
+		font-size: 1.50em;
+		line-height: 1.25em;
+	}
+	
+	.home-text p.home-sub-title {
+	font-size: 0.85em;
+	}
+	
+	.navigation-container {
+	width: 100%;
+	}
+	
+	.navigation-container a.left {
+	float: none; 
+	width: 100%;
+	padding: 2px 0px;
+	}
+	
+	.navigation-container a {
+	float: center;
+	width: 100%;
+	padding: 0px 0px;
+	}
+	
+
+}
+
 .research-header-container {
 	width: 100%;
-	background: #ff571a url("media/Wellesley.jpg") 100% no-repeat;
+	background: #ff571a url("media/siesta.jpg") 100% no-repeat;
 	background-size: cover; 
 	color: white;
 	text-align: center;
@@ -126,7 +155,7 @@ a:hover {
 
 .about-header-container { 
 	width: 100%;
-	background: #ff571a url("media/siesta.jpg") 100% no-repeat;
+	background: #ff571a url("media/Wellesley.jpg") 100% no-repeat;
 	background-size: cover; 
 	color: white;
 	text-align: center;
@@ -200,6 +229,21 @@ figure {
 	margin: 80px auto 60px; 
 }
 
+.iframe-container {
+	overflow: hidden;
+	padding-top: 80%;
+	position: relative;
+}
+
+.iframe-container iframe {
+	border: 0; 
+	height: 100%;
+	left: 0; 
+	position: absolute;
+	top: 0; 
+	width: 100%;
+}
+
 /* Footer */
 .footer-container {
 	width: 100%; 
@@ -213,8 +257,6 @@ figure {
 	text-align: center;
 	line-height: 1.25em;
 }
-
-
 
 .footer-title {
 	margin: 0px;
