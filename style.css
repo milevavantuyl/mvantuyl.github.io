@@ -58,7 +58,7 @@ a:hover {
 
 /* Hero Image */ 
 #showcase {
-	background: url("media/hero_image.JPG") 100% no-repeat;
+	background: url("media/hero_image.jpg") 100% no-repeat;
 	height: 800px;
 	background-size: cover;
 	background-color: #C0C0C0;
