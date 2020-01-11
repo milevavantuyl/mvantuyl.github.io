@@ -108,17 +108,17 @@ a:hover {
 	font-size: 0.85em;
 	}
 	
-	.navigation-container {
+	.nav-container {
 	width: 100%;
 	}
 	
-	.navigation-container a.left {
+	.nav-container a.left {
 	float: none; 
 	width: 100%;
 	padding: 2px 0px;
 	}
 	
-	.navigation-container a {
+	.nav-container a {
 	float: center;
 	width: 100%;
 	padding: 0px 0px;
