@@ -58,7 +58,7 @@ a:hover {
 
 /* Hero Image */ 
 #showcase {
-	background: url("media/IMG_8911.JPG") 100% no-repeat;
+	background: url("media/IMG_8912.JPG") 100% no-repeat;
 	height: 800px;
 	background-size: cover;
 	background-color: #C0C0C0;
@@ -125,6 +125,7 @@ a:hover {
 	padding: 0px 0px;
 	}
 	
+	/*
 	#showcase {
 	background: url("media/IMG_8911.JPG") 100% no-repeat;
 	height: 600px;
@@ -134,6 +135,7 @@ a:hover {
 	position: relative;
 	display: flex;
 	}
+	*/
 
 }
 
