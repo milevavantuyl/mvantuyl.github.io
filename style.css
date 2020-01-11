@@ -123,6 +123,17 @@ a:hover {
 	width: 100%;
 	padding: 0px 0px;
 	}
+	
+	#showcase {
+	background: url("media/IMG_8911.JPG") 100% no-repeat;
+	height: 500px;
+	background-size: cover;
+	background-color: #C0C0C0;
+	background-position: center;
+	position: relative;
+	display: flex;
+	}
+
 }
 
 
