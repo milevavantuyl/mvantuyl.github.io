@@ -64,6 +64,7 @@ a:hover {
 	background-color: #C0C0C0;
 	background-position: center;
 	position: relative;
+	padding-top: 50px;
 }
 
 .home-text {
