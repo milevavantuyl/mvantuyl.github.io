@@ -1,2 +1,4 @@
 # mvantuyl.github.io
-Repository containing code for my personal website (updated August 18, 2019)
+
+Personal website with information about my academic interests, work experience, and 
+research projects (last updated April 2020).
